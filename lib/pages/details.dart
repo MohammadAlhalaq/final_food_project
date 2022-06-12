@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:line_icons/line_icons.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 import '../controllers/food_controller.dart';
-//
 import '../controllers/switch_controller.dart';
 import '../controllers/wallet_controller.dart';
 import '../utils/constanst.dart';

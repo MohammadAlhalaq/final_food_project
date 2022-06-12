@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 //
 import '../controllers/splash_controller.dart';
 
@@ -29,7 +31,6 @@ class SettingPage extends StatelessWidget {
                 height: 10,
               ),
               FadeInUp(
-                
                 delay: const Duration(milliseconds: 500),
                 child: Text(
                     "Introduction Screen is : ${controller.showIntro == true ? 'Enable' : 'Disable'}",

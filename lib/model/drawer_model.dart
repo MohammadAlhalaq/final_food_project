@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 class DrawerItemModel {
   IconData icon;
@@ -21,6 +23,4 @@ List<DrawerItemModel> drawerItem = [
   DrawerItemModel(icon: LineIcons.alternateSignIn, title: "Sign Out"),
   DrawerItemModel(icon: LineIcons.shareSquareAlt, title: "Tell a Friend"),
   DrawerItemModel(icon: LineIcons.questionCircle, title: "Help And Feedback"),
-  
-  
 ];

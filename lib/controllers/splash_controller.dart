@@ -1,6 +1,8 @@
 import 'package:final_food_project/controllers/fb_auth_controller.dart';
 import 'package:final_food_project/navigator.dart';
 import 'package:final_food_project/pages/introduction.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 

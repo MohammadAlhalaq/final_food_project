@@ -11,7 +11,7 @@ import 'package:firebase_core/firebase_core.dart';
 
 import '../model/introduction_model.dart';
 import '../navigator.dart';
-//
+
 import '../pages/landscape_mode.dart';
 
 class IntroductionPage extends StatelessWidget {
